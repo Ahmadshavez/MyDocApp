@@ -71,8 +71,7 @@ const changeStatusController=async(req,res)=>
         res.status(500).send({
             success:false,
             message:"Error in Account Status",
-            error 
-        
+            error   
     })
 }
 
